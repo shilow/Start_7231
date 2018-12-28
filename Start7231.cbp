@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Start7231" />
+		<Option makefile_is_custom="1" />
+		<Option pch_mode="2" />
+		<Option compiler="copy_of_iar_stm8_compiler" />
+		<Option virtualFolders="StdPerphDrv\;StdPerphDrv\src\;StdPerphDrv\inc\;Lib\;src\;inc\;" />
+		<MakeCommands>
+			<Build command="" />
+			<CompileFile command="" />
+			<Clean command="" />
+			<DistClean command="" />
+			<AskRebuildNeeded command="" />
+			<SilentBuild command=" &gt; $(CMD_NULL)" />
+		</MakeCommands>
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/Start7231" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="copy_of_iar_stm8_compiler" />
+				<Compiler>
+					<Add option="-Oh" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Unit filename="StdPerphDrv/inc/stm8s.h">
+			<Option virtualFolder="StdPerphDrv/inc/" />
+		</Unit>
+		<Unit filename="StdPerphDrv/inc/stm8s_adc1.h">
+			<Option virtualFolder="StdPerphDrv/inc/" />
+		</Unit>
+		<Unit filename="StdPerphDrv/inc/stm8s_awu.h">
+			<Option virtualFolder="StdPerphDrv/inc/" />
+		</Unit>
+		<Unit filename="StdPerphDrv/inc/stm8s_beep.h">
+			<Option virtualFolder="StdPerphDrv/inc/" />
+		</Unit>
+		<Unit filename="StdPerphDrv/inc/stm8s_clk.h">
+			<Option virtualFolder="StdPerphDrv/inc/" />
+		</Unit>
+		<Unit filename="StdPerphDrv/inc/stm8s_exti.h">
+			<Option virtualFolder="StdPerphDrv/inc/" />
+		</Unit>
+		<Unit filename="StdPerphDrv/inc/stm8s_flash.h">
+			<Option virtualFolder="StdPerphDrv/inc/" />
+		</Unit>
+		<Unit filename="StdPerphDrv/inc/stm8s_gpio.h">
+			<Option virtualFolder="StdPerphDrv/inc/" />
+		</Unit>
+		<Unit filename="StdPerphDrv/inc/stm8s_i2c.h">
+			<Option virtualFolder="StdPerphDrv/inc/" />
+		</Unit>
+		<Unit filename="StdPerphDrv/inc/stm8s_itc.h">
+			<Option virtualFolder="StdPerphDrv/inc/" />
+		</Unit>
+		<Unit filename="StdPerphDrv/inc/stm8s_iwdg.h">
+			<Option virtualFolder="StdPerphDrv/inc/" />
+		</Unit>
+		<Unit filename="StdPerphDrv/inc/stm8s_rst.h">
+			<Option virtualFolder="StdPerphDrv/inc/" />
+		</Unit>
+		<Unit filename="StdPerphDrv/inc/stm8s_spi.h">
+			<Option virtualFolder="StdPerphDrv/inc/" />
+		</Unit>
+		<Unit filename="StdPerphDrv/inc/stm8s_tim1.h">
+			<Option virtualFolder="StdPerphDrv/inc/" />
+		</Unit>
+		<Unit filename="StdPerphDrv/inc/stm8s_tim2.h">
+			<Option virtualFolder="StdPerphDrv/inc/" />
+		</Unit>
+		<Unit filename="StdPerphDrv/inc/stm8s_tim4.h">
+			<Option virtualFolder="StdPerphDrv/inc/" />
+		</Unit>
+		<Unit filename="StdPerphDrv/inc/stm8s_uart1.h">
+			<Option virtualFolder="StdPerphDrv/inc/" />
+		</Unit>
+		<Unit filename="StdPerphDrv/inc/stm8s_wwdg.h">
+			<Option virtualFolder="StdPerphDrv/inc/" />
+		</Unit>
+		<Unit filename="StdPerphDrv/src/stm8s_adc1.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="StdPerphDrv/src/" />
+		</Unit>
+		<Unit filename="StdPerphDrv/src/stm8s_awu.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="StdPerphDrv/src/" />
+		</Unit>
+		<Unit filename="StdPerphDrv/src/stm8s_beep.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="StdPerphDrv/src/" />
+		</Unit>
+		<Unit filename="StdPerphDrv/src/stm8s_clk.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="StdPerphDrv/src/" />
+		</Unit>
+		<Unit filename="StdPerphDrv/src/stm8s_exti.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="StdPerphDrv/src/" />
+		</Unit>
+		<Unit filename="StdPerphDrv/src/stm8s_flash.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="StdPerphDrv/src/" />
+		</Unit>
+		<Unit filename="StdPerphDrv/src/stm8s_gpio.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="StdPerphDrv/src/" />
+		</Unit>
+		<Unit filename="StdPerphDrv/src/stm8s_i2c.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="StdPerphDrv/src/" />
+		</Unit>
+		<Unit filename="StdPerphDrv/src/stm8s_itc.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="StdPerphDrv/src/" />
+		</Unit>
+		<Unit filename="StdPerphDrv/src/stm8s_iwdg.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="StdPerphDrv/src/" />
+		</Unit>
+		<Unit filename="StdPerphDrv/src/stm8s_rst.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="StdPerphDrv/src/" />
+		</Unit>
+		<Unit filename="StdPerphDrv/src/stm8s_spi.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="StdPerphDrv/src/" />
+		</Unit>
+		<Unit filename="StdPerphDrv/src/stm8s_tim1.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="StdPerphDrv/src/" />
+		</Unit>
+		<Unit filename="StdPerphDrv/src/stm8s_tim2.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="StdPerphDrv/src/" />
+		</Unit>
+		<Unit filename="StdPerphDrv/src/stm8s_tim4.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="StdPerphDrv/src/" />
+		</Unit>
+		<Unit filename="StdPerphDrv/src/stm8s_uart1.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="StdPerphDrv/src/" />
+		</Unit>
+		<Unit filename="StdPerphDrv/src/stm8s_wwdg.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="StdPerphDrv/src/" />
+		</Unit>
+		<Unit filename="inc/board.h">
+			<Option virtualFolder="inc/" />
+		</Unit>
+		<Unit filename="inc/stm8s_conf.h">
+			<Option virtualFolder="inc/" />
+		</Unit>
+		<Unit filename="inc/stm8s_it.h">
+			<Option virtualFolder="inc/" />
+		</Unit>
+		<Unit filename="lib/ds3231.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="Lib/" />
+		</Unit>
+		<Unit filename="lib/ds3231.h">
+			<Option virtualFolder="Lib/" />
+		</Unit>
+		<Unit filename="lib/event-system.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="Lib/" />
+		</Unit>
+		<Unit filename="lib/event-system.h">
+			<Option virtualFolder="Lib/" />
+		</Unit>
+		<Unit filename="lib/i2c.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="Lib/" />
+		</Unit>
+		<Unit filename="lib/i2c.h">
+			<Option virtualFolder="Lib/" />
+		</Unit>
+		<Unit filename="lib/list_event.h">
+			<Option virtualFolder="Lib/" />
+		</Unit>
+		<Unit filename="lib/rtos.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="Lib/" />
+		</Unit>
+		<Unit filename="lib/rtos.h">
+			<Option virtualFolder="Lib/" />
+		</Unit>
+		<Unit filename="src/main.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Unit filename="src/stm8s_it.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
